@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+}
+
+.header-table {
+    display: flex;
+    justify-content: center;
+}
+
+.header-td {
+    background-color: #919fd029;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-img__logo {
+    box-shadow: 1px 2px 7px 3px #1e4a8730;
+}
+
+#header-td-basket {
+    background-color: rgb(119, 119, 226);
+}
+
+#basket {
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.heading {
+    text-align: center;
+    color: #133591;
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading__box {
+    width: 30%;
+}
+
+.heading__h1 {
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.search__label {
+    color: #133591;
+}
+
+.search__input {
+    border: solid 1px #13359162;
+}
+
+.search__input::placeholder {
+    padding-left: 10px;
+    color: #13359162;
+    font-size: larger;
+}
+
+.search__input:hover {
+    border-color: #3c58a2;
+}
+
+.search__input:focus-visible {
+    outline: 1px solid #3c58a2;
+}
+
+.search__button {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 2px #9d9ddd;
+    background-color: #9d9ddd;
+    font-size: larger;
+    font-weight: bolder;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.search__button:hover {
+    border-color: #3c58a2;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(14, 1, 99);
+}
+
+a:visited {
+    color: rgb(14, 1, 99);
+}
+
+.heading__h2 {
+    text-align: center;
+    color: #133591;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container__card {
+    border-top: 2px solid rgb(119, 119, 226);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.container-card__car {
+    background-color: rgba(119, 119, 226, 0.099);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-card__car:hover {
+    box-shadow: 1px 2px 7px 3px #1e4a8730;
+}
+
+.img {
+    width: 60%;
+}
+
+footer {
+    background-color: #9d9dddac;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+
+    text-align: center;
+}
+

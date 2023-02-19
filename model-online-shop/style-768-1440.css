@@ -1,0 +1,58 @@
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .header-img__logo {
+        height: calc(80/1440*100vw);   
+    }
+
+    .header-td {
+        width: calc(200/1440*100vw);
+        height: calc(40/1440*100vw);
+    }
+
+    .heading {
+        text-align: center;
+        color: #133591;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+    }
+
+    .heading__h1 {
+        font-size: x-large;
+    }
+
+    .heading__h3 {
+        font-size: x-large;
+    }
+
+
+
+    .search__input {
+        margin-left: calc(5/1440*100vw);
+        margin-right: calc(5/1440*100vw);
+        width: calc(300/1440*100vw);
+        height: calc(30/1440*100vw);
+        border-radius: calc(5/1440*100vw);
+    }
+
+    .search__input::placeholder {
+        padding-left: calc(10/1440*100vw);
+    }
+
+    .container__card {
+        row-gap: calc(10/1440*100vw);
+        column-gap: calc(10/1440*100vw);
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container-card__car {
+        width: calc(250/1440*100vw);
+        height: calc(150/1440*100vw);
+    }
+}
