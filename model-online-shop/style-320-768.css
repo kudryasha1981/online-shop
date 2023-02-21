@@ -1,5 +1,11 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
 
+    .text {
+        margin-top: calc(100/768*100vw);
+        margin-bottom: calc(100/768*100vw);
+        font-size: calc(30/768*100vw);
+    }
+
     .header-img__logo {
         height: calc(100/768*100vw);   
     }
