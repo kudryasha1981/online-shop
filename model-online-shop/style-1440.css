@@ -34,7 +34,12 @@
         font-size: x-large;
     }
 
-
+    .heading__table {
+        margin-top: calc(30/1440*100vw);
+        margin-bottom: calc(30/1440*100vw);
+        font-size: calc(20/1440*100vw);
+        font-weight: bold;
+    }
 
     .search__input {
         margin-left: calc(5/1440*100vw);
@@ -61,5 +66,14 @@
     .container-card__car {
         width: calc(250/1440*100vw);
         height: calc(150/1440*100vw);
+    }
+
+    .product-card {
+        margin-top: calc(50/1440*100vw);
+    }
+    
+
+    .foto-product {
+        width: calc(200/1440*100vw);
     }
 }

@@ -7,15 +7,17 @@
     }
 
     .header-img__logo {
-        height: calc(80/1440*100vw);   
+        height: calc(100/1440*100vw);   
     }
 
     .header-td {
-        width: calc(200/1440*100vw);
-        height: calc(40/1440*100vw);
+        width: calc(320/1440*100vw);
+        height: calc(70/1440*100vw);
     }
 
     .heading {
+        margin-top: calc(50/1440*100vw);
+        margin-bottom: calc(50/1440*100vw);
         text-align: center;
         color: #133591;
         display: flex;
@@ -33,13 +35,18 @@
         font-size: x-large;
     }
 
-
+    .heading__table {
+        margin-top: calc(60/1440*100vw);
+        margin-bottom: calc(60/1440*100vw);
+        font-size: calc(50/1440*100vw);
+        font-weight: bold;
+    }
 
     .search__input {
-        margin-left: calc(5/1440*100vw);
-        margin-right: calc(5/1440*100vw);
-        width: calc(300/1440*100vw);
-        height: calc(30/1440*100vw);
+        margin-left: calc(20/1440*100vw);
+        margin-right: calc(20/1440*100vw);
+        width: calc(700/1440*100vw);
+        height: calc(60/1440*100vw);
         border-radius: calc(5/1440*100vw);
     }
 
@@ -58,7 +65,7 @@
     }
 
     .container-card__car {
-        width: calc(250/1440*100vw);
-        height: calc(150/1440*100vw);
+        width: calc(350/1440*100vw);
+        height: calc(250/1440*100vw);
     }
 }
